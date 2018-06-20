@@ -6,5 +6,5 @@ When running `mvn verify` I expect spotbugs to find all three unused private fie
 
 ## Actual
 
-Spotbug only finds two unused private fields. The on in `C` is not detected.
+Spotbug only finds two unused private fields. The one in `C` is not detected. However some other errors for `C` are thrown.
 
